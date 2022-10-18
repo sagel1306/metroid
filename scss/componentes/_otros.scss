@@ -1,0 +1,57 @@
+.Mapas{
+    text-align: center;
+    color: red;
+    text-shadow: 3px 3px 0 black;
+    margin: 7%;
+    font-size: 400%;
+}
+
+.carrusel{
+    .mapas{
+        width: 1000px;
+        height: 600%;
+        width: 70%;
+        margin-top: 2%;
+        margin-left: 15%;
+        border-radius: 20%;
+    }
+}
+
+h3{
+    font-size: 400%;
+    color: red;
+    text-shadow: 3px 3px 0 black;
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 2%;
+}
+
+.guias{
+    ul{
+        padding: 0;
+        li{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+iframe{
+    margin: 2%;
+    border-radius: 40px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .guias ul li{
+        flex-direction: column;
+        margin: 10%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .guias ul li{
+        flex-direction: column;
+        margin: 10%;
+    }
+}

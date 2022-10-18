@@ -1,0 +1,235 @@
+h2{
+    font-size: 400%;
+    margin: 2%;
+    margin-top: 15%;
+    color: red;
+    text-shadow: 3px 3px 0 black;
+}
+.E-M-M-I li{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 5%;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 3);
+    grid-template-areas: 
+    "emi1 emi2 emi3"
+    "emi4 emi5 emi6"
+    "emi7 . .";
+}
+
+.emi1{
+    grid-area: emi1;
+}
+
+.emi2{
+    grid-area: emi2;
+}
+
+.emi3{
+    grid-area: emi3;
+}
+
+.emi4{
+    grid-area: emi4;
+}
+
+.emi5{
+    grid-area: emi5;
+}
+
+.emi6{
+    grid-area: emi6;
+}
+
+.emi7{
+    grid-area: emi7;
+}
+
+.E-M-M-I{
+    img{
+        margin: 20px;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        &:hover{
+            transform: scale(1.2);
+            transition: 1s;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .E-M-M-I li{
+        grid-template-columns: repeat(1fr, 2);
+        grid-template-rows: repeat(1fr, 4);
+        grid-template-areas: 
+        "emi1 emi2"
+        "emi3 emi4"
+        "emi5 emi6"
+        "emi7 . ";
+    }
+}
+
+@media screen and (max-width: 480px){
+    .E-M-M-I li{
+        grid-template-columns: repeat(1fr, 1);
+        grid-template-rows: repeat(1fr, 7);
+        grid-template-areas: 
+        "emi1"
+        "emi2"
+        "emi3"
+        "emi4"
+        "emi5"
+        "emi6"
+        "emi7";
+    }
+}
+    
+.Jefes li{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 5%;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 4);
+    grid-template-areas: 
+   "ene1 ene2 ene3"
+   "ene4 ene5 ene6"
+   "ene7 ene8 ene9"
+   "ene10 ene11 .";
+}
+
+.ene1{
+    grid-area: ene1;
+}
+
+.ene2{
+    grid-area: ene2;
+}
+
+.ene3{
+    grid-area: ene3;
+}
+
+.ene4{
+    grid-area: ene4;
+}
+
+.ene5{
+    grid-area: ene5;
+}
+
+.ene6{
+    grid-area: ene6;
+}
+
+.ene7{
+    grid-area: ene7;
+}
+
+.ene8{
+    grid-area: ene8;
+}
+
+.ene9{
+    grid-area: ene9;
+}
+
+.ene10{
+    grid-area: ene10;
+}
+
+.ene11{
+    grid-area: ene11;
+}
+
+@media screen and (max-width: 768px){
+    .Jefes li{
+        grid-template-columns: repeat(1fr, 2);
+        grid-template-rows: repeat(1fr, 6);
+        grid-template-areas: 
+        "ene1 ene2"
+        "ene3 ene4"
+        "ene5 ene6"
+        "ene7 ene8"
+        "ene9 ene10"
+        "ene11 .";
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Jefes li{
+        grid-template-columns: repeat(1fr, 1);
+        grid-template-rows: repeat(1fr, 11);
+        grid-template-areas: 
+        "ene1"
+        "ene2"
+        "ene3"
+        "ene4"
+        "ene5"
+        "ene6"
+        "ene7"
+        "ene8"
+        "ene9"
+        "ene10"
+        "ene11";
+    }
+    .linea-superior{
+        margin-left: 20px;
+    }
+
+}
+
+.Jefes{
+    img{
+        margin: 20px;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        &:hover{
+            transform: scale(1.2);
+            transition: 1s;
+        }
+    }
+} 
+
+hr{
+  opacity: 10;
+  height: 3px;
+  border-top: none;
+}
+
+.linea-superior{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.linea-inferior{
+    margin-top: 10px;
+    margin-left: 170px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .linea-superior{
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+    
+    .linea-inferior{
+        margin-top: 10px;
+        margin-left: 110px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .linea-superior{
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    
+    .linea-inferior{
+        margin-top: 10px;
+        margin-left: 55px;
+        margin-right: 50px;
+    }
+}
+    
