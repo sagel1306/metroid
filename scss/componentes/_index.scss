@@ -37,6 +37,21 @@ body{
 /*------------------------------NAV-------------------------*/
 
 
+@media screen and (max-width: 768px) {
+    .fotos1 section img{
+        width: 40%;
+    }
+
+    .fotos2 section img{
+        width: 40%;
+    }
+
+    p{
+        margin: 4%;
+    }
+
+}
+
 @media screen and (max-width: 480px){
 
     .fotos section img{
@@ -60,22 +75,14 @@ body{
         display: none;
     }
 
-    
-
-}
-
-@media screen and (max-width: 768px) {
-    .fotos1 section img{
-        width: 40%;
-    }
-
-    .fotos2 section img{
-        width: 40%;
+    .titu-ini{
+        font-size: 30px;
     }
 
     p{
-        margin: 4%;
+        font-size: 15px;
     }
+
 }
 /*--------------------index--------------------*/
 
@@ -99,7 +106,7 @@ body{
             text-align: center;
             font-size: 300%;
             text-shadow: 3px 3px 0 black;
-            margin: 0 0 0 50%;
+            margin: 0 0 20% 50%;
             
         }
         

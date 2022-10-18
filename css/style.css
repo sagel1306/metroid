@@ -49,11 +49,17 @@ iframe {
     flex-direction: column;
     margin: 10%;
   }
+  .Mapas {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
 }
 body .habilidades {
   text-align: center;
   margin: 5%;
-  font-size: 400%;
+  font-size: 300%;
 }
 body li {
   list-style: none;
@@ -106,6 +112,17 @@ body nav ul li a:hover {
 }
 
 /*------------------------------NAV-------------------------*/
+@media screen and (max-width: 768px) {
+  .fotos1 section img {
+    width: 40%;
+  }
+  .fotos2 section img {
+    width: 40%;
+  }
+  p {
+    margin: 4%;
+  }
+}
 @media screen and (max-width: 480px) {
   .fotos section img {
     width: 100%;
@@ -123,16 +140,11 @@ body nav ul li a:hover {
   .img-grande {
     display: none;
   }
-}
-@media screen and (max-width: 768px) {
-  .fotos1 section img {
-    width: 40%;
-  }
-  .fotos2 section img {
-    width: 40%;
+  .titu-ini {
+    font-size: 30px;
   }
   p {
-    margin: 4%;
+    font-size: 15px;
   }
 }
 /*--------------------index--------------------*/
@@ -154,7 +166,7 @@ body .Titulo-index .dread {
   text-align: center;
   font-size: 300%;
   text-shadow: 3px 3px 0 black;
-  margin: 0 0 0 50%;
+  margin: 0 0 20% 50%;
 }
 
 h2 {
@@ -292,6 +304,9 @@ h2 {
     grid-template-rows: repeat(1fr, 7);
     grid-template-areas: "emi1" "emi2" "emi3" "emi4" "emi5" "emi6" "emi7";
   }
+  .em {
+    font-size: 30px;
+  }
 }
 .Jefes li {
   display: grid;
@@ -361,6 +376,9 @@ h2 {
   }
   .linea-superior {
     margin-left: 20px;
+  }
+  .jef {
+    font-size: 30px;
   }
 }
 .Jefes img {
