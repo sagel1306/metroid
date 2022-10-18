@@ -71,12 +71,24 @@ body li .habi {
 body li .habi img {
   margin: 3%;
   border-radius: 100%;
-  width: 50%;
+  width: 500px;
 }
 body li .habi p {
   margin: 10%;
 }
 
+@media screen and (max-width: 768px) {
+  body li .habi img {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body li .habi img {
+    width: 200px;
+    height: 250px;
+  }
+}
 body {
   background-image: url(../img/fondo.gif);
   background-repeat: no-repeat;
@@ -153,11 +165,12 @@ p {
 }
 .fotos1 section p {
   display: flex;
-  margin-top: 15%;
+  margin: 6%;
 }
 .fotos1 section img {
   margin: 0 0% 2% 2%;
   border-radius: 50% 20%/10% 40%;
+  width: 500px;
 }
 
 .fotos2 section {
@@ -167,11 +180,12 @@ p {
 }
 .fotos2 section p {
   display: flex;
-  margin-top: 15%;
+  margin: 6%;
 }
 .fotos2 section img {
   margin: 2%;
   border-radius: 50% 20%/10% 40%;
+  width: 500px;
 }
 
 .fotos3 img {
@@ -203,10 +217,12 @@ footer p {
 
 @media screen and (max-width: 768px) {
   .fotos1 section img {
-    width: 40%;
+    width: 200px;
+    height: 220px;
   }
   .fotos2 section img {
-    width: 40%;
+    width: 200px;
+    height: 220px;
   }
   p {
     margin: 4%;
@@ -242,6 +258,10 @@ h2 {
   margin-top: 15%;
   color: red;
   text-shadow: 3px 3px 0 black;
+}
+
+ul {
+  padding: 0;
 }
 
 .E-M-M-I li {

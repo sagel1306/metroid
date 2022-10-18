@@ -86,11 +86,12 @@ p{
         margin-top: 5%;
         p{
             display: flex;
-            margin-top: 15%;
+            margin: 6%;
         }
         img{
          margin: 0 0% 2% 2%;
          border-radius: 50% 20% / 10% 40%;
+         width: 500px;
         }
     }
 }
@@ -102,11 +103,12 @@ p{
         margin-top: 5%;
         p{
             display: flex;
-            margin-top: 15%;
+            margin: 6%;
         }
         img{
          margin:2%;
          border-radius: 50% 20% / 10% 40%;
+         width: 500px;
         }
     }
 }
@@ -144,11 +146,13 @@ footer{
 
 @media screen and (max-width: 768px) {
     .fotos1 section img{
-        width: 40%;
+        width: 200px;
+        height: 220px;
     }
 
     .fotos2 section img{
-        width: 40%;
+        width: 200px;
+        height: 220px;
     }
 
     p{
